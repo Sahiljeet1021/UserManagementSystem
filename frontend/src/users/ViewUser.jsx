@@ -17,7 +17,7 @@ const ViewUser = () => {
   },[])
 
   const loadUser=async ()=>{
-    const result=await axios.get(`http://localhost:8082/users/${id}`)
+    const result=await axios.get(`http://localhost:8080/users/${id}`)
     setUser(result.data)
   }
 
