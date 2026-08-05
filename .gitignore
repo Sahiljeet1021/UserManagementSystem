@@ -1,0 +1,17 @@
+# Spring Boot
+simplebackend/target/
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
