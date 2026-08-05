@@ -14,7 +14,7 @@ const Home = () => {
 
     const loadUsers=async()=>
     {
-        const result=await axios.get("http://localhost:8082/users");
+        const result=await axios.get("http://localhost:8080/users");
         setUsers(result.data);
         
     }
